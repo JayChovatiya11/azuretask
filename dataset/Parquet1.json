@@ -1,0 +1,326 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "part-00000-acc8540a-3ce4-41f5-83d2-f77161174694-c000.snappy.parquet",
+				"container": "containeroffiles"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "Prop_0",
+				"type": "UTF8"
+			},
+			{
+				"name": "match_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "date",
+				"type": "UTF8"
+			},
+			{
+				"name": "match_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "event_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "innings",
+				"type": "UTF8"
+			},
+			{
+				"name": "batting_team",
+				"type": "UTF8"
+			},
+			{
+				"name": "bowling_team",
+				"type": "UTF8"
+			},
+			{
+				"name": "over",
+				"type": "UTF8"
+			},
+			{
+				"name": "ball",
+				"type": "UTF8"
+			},
+			{
+				"name": "ball_no",
+				"type": "UTF8"
+			},
+			{
+				"name": "batter",
+				"type": "UTF8"
+			},
+			{
+				"name": "bat_pos",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_batter",
+				"type": "UTF8"
+			},
+			{
+				"name": "balls_faced",
+				"type": "UTF8"
+			},
+			{
+				"name": "bowler",
+				"type": "UTF8"
+			},
+			{
+				"name": "valid_ball",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_extras",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_total",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_bowler",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_not_boundary",
+				"type": "UTF8"
+			},
+			{
+				"name": "extra_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "non_striker",
+				"type": "UTF8"
+			},
+			{
+				"name": "non_striker_pos",
+				"type": "UTF8"
+			},
+			{
+				"name": "wicket_kind",
+				"type": "UTF8"
+			},
+			{
+				"name": "player_out",
+				"type": "UTF8"
+			},
+			{
+				"name": "fielders",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_target",
+				"type": "UTF8"
+			},
+			{
+				"name": "review_batter",
+				"type": "UTF8"
+			},
+			{
+				"name": "team_reviewed",
+				"type": "UTF8"
+			},
+			{
+				"name": "review_decision",
+				"type": "UTF8"
+			},
+			{
+				"name": "umpire",
+				"type": "UTF8"
+			},
+			{
+				"name": "umpires_call",
+				"type": "UTF8"
+			},
+			{
+				"name": "player_of_match",
+				"type": "UTF8"
+			},
+			{
+				"name": "match_won_by",
+				"type": "UTF8"
+			},
+			{
+				"name": "win_outcome",
+				"type": "UTF8"
+			},
+			{
+				"name": "toss_winner",
+				"type": "UTF8"
+			},
+			{
+				"name": "toss_decision",
+				"type": "UTF8"
+			},
+			{
+				"name": "venue",
+				"type": "UTF8"
+			},
+			{
+				"name": "city",
+				"type": "UTF8"
+			},
+			{
+				"name": "day",
+				"type": "UTF8"
+			},
+			{
+				"name": "month",
+				"type": "UTF8"
+			},
+			{
+				"name": "year",
+				"type": "UTF8"
+			},
+			{
+				"name": "season",
+				"type": "UTF8"
+			},
+			{
+				"name": "gender",
+				"type": "UTF8"
+			},
+			{
+				"name": "team_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "superover_winner",
+				"type": "UTF8"
+			},
+			{
+				"name": "result_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "method",
+				"type": "UTF8"
+			},
+			{
+				"name": "balls_per_over",
+				"type": "UTF8"
+			},
+			{
+				"name": "overs",
+				"type": "UTF8"
+			},
+			{
+				"name": "event_match_no",
+				"type": "UTF8"
+			},
+			{
+				"name": "stage",
+				"type": "UTF8"
+			},
+			{
+				"name": "match_number",
+				"type": "UTF8"
+			},
+			{
+				"name": "team_runs",
+				"type": "UTF8"
+			},
+			{
+				"name": "team_balls",
+				"type": "UTF8"
+			},
+			{
+				"name": "team_wicket",
+				"type": "UTF8"
+			},
+			{
+				"name": "new_batter",
+				"type": "UTF8"
+			},
+			{
+				"name": "batter_runs",
+				"type": "UTF8"
+			},
+			{
+				"name": "batter_balls",
+				"type": "UTF8"
+			},
+			{
+				"name": "bowler_wicket",
+				"type": "UTF8"
+			},
+			{
+				"name": "batting_partners",
+				"type": "UTF8"
+			},
+			{
+				"name": "next_batter",
+				"type": "UTF8"
+			},
+			{
+				"name": "striker_out",
+				"type": "UTF8"
+			},
+			{
+				"name": "_c0",
+				"type": "UTF8"
+			},
+			{
+				"name": "match_no",
+				"type": "UTF8"
+			},
+			{
+				"name": "striker",
+				"type": "UTF8"
+			},
+			{
+				"name": "runs_of_bat",
+				"type": "UTF8"
+			},
+			{
+				"name": "extras",
+				"type": "UTF8"
+			},
+			{
+				"name": "wide",
+				"type": "UTF8"
+			},
+			{
+				"name": "legbyes",
+				"type": "UTF8"
+			},
+			{
+				"name": "byes",
+				"type": "UTF8"
+			},
+			{
+				"name": "noballs",
+				"type": "UTF8"
+			},
+			{
+				"name": "wicket_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "player_dismissed",
+				"type": "UTF8"
+			},
+			{
+				"name": "fielder",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

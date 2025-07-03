@@ -1,0 +1,9 @@
+{
+	"name": "Dataflowlessonwithadf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c00df33e-fc89-41aa-9345-c841de5fcdc6",
+		"tenantId": "29626a29-7a94-4c63-a8ce-f4242e1f31e0"
+	}
+}

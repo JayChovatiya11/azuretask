@@ -1,0 +1,37 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"description": "scheduler trigger",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 15,
+				"startTime": "2025-07-02T10:20:00",
+				"endTime": "2025-07-04T02:18:00",
+				"timeZone": "Eastern Standard Time",
+				"schedule": {
+					"minutes": [
+						5
+					],
+					"hours": [
+						9
+					],
+					"monthDays": [
+						1
+					]
+				}
+			}
+		}
+	}
+}
